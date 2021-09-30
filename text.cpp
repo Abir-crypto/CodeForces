@@ -1,19 +1,15 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+int NumberDe(int x){
+    return x * 100 + 20 - 30;
+}
+
 int main()
 {
-    int k;
-    k = 10;
-    for (int i = 1;; i++)
-    {
-        if (i % 3 == 0 || i % 10 == 3)
-            continue;
-        if (--k == 0)
-        {
-            cout << i << '\n';
-            break;
-        }
-        cout << k << endl;
+    int xya = NumberDe(10);
+    for (int i = NumberDe(10); i < 1000;i++){
+
     }
+    cout << NumberDe(10) << endl;
 }
